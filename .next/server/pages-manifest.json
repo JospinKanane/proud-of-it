@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/auth-7Empire-admin": "pages/auth-7Empire-admin.js",
   "/auth-7Empire-admin/signup": "pages/auth-7Empire-admin/signup.js",
-  "/auth-7Empire-admin": "pages/auth-7Empire-admin.js"
+  "/auth-7Empire-admin/dashboard": "pages/auth-7Empire-admin/dashboard.js"
 }

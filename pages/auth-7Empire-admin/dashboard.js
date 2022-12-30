@@ -9,7 +9,7 @@ import Social from '../../components/Social'
 function dashboard() {
   return (
     <div className="flex flex-col items-center">
-      <header className="flex flex-row items-center justify-between bg-black text-white w-full fixed">
+      <header className="flex flex-row items-center justify-between bg-black text-white w-full">
           <Link href='/auth-7Empire-admin/dashboard'>
             <Image src={logo_footer} alt='logo' className='md:w-50 cursor-pointer h-10 w-10 m-2' />
           </Link>
