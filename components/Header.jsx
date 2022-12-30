@@ -13,7 +13,7 @@ const Header = () => {
             <Image src={logo_footer} alt='logo' className='logo md:w-50 cursor-pointer' />
           </Link>
           <div className='flex gap-2 items-center'>
-            <p className='follow-us font-bold cursor-default'>Suivez sur</p>
+            <p className='follow-us font-bold cursor-default'>Rejoignez-nous</p>
             <Social />
           </div>
         </div>

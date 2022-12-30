@@ -2,13 +2,12 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import logo_footer from '../../public/logo.jpg'
-import {FaFacebook, FaTwitterSquare, FaInstagram, FaLinkedin, FaYoutube}  from 'react-icons/fa'
 import Social from '../../components/Social'
 
 
 function dashboard() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="dashboard flex flex-col items-center overflow-hidden">
       <header className="flex flex-row items-center justify-between bg-black text-white w-full">
           <Link href='/auth-7Empire-admin/dashboard'>
             <Image src={logo_footer} alt='logo' className='md:w-50 cursor-pointer h-10 w-10 m-2' />
@@ -55,7 +54,27 @@ function dashboard() {
           </div>
           <div className="w-96 h-48">
             <h1 className="block text-gray-700 font-bold mb-2 text-2xl cursor-default">Tags</h1>
-            <div className="flex flex-row gap-1 shadow border rounded text-gray-700 overflow-auto h-40 pl-3">
+            <div className="tags flex flex-col gap-1 shadow border rounded text-gray-700 overflow-auto h-40 pl-3">
+                <label className="flex flex-row items-baseline gap-1" for="tags" >
+                  <input type="checkbox" className="mr-1 h-4 w-4 shadow border rounded" name="tags" id="tags" />
+                  <span className="text-xl">tag_1</span>
+                </label>
+                <label className="flex flex-row items-baseline gap-1" for="tags" >
+                  <input type="checkbox" className="mr-1 h-4 w-4 shadow border rounded" name="tags" id="tags" />
+                  <span className="text-xl">tag_1</span>
+                </label>
+                <label className="flex flex-row items-baseline gap-1" for="tags" >
+                  <input type="checkbox" className="mr-1 h-4 w-4 shadow border rounded" name="tags" id="tags" />
+                  <span className="text-xl">tag_1</span>
+                </label>
+                <label className="flex flex-row items-baseline gap-1" for="tags" >
+                  <input type="checkbox" className="mr-1 h-4 w-4 shadow border rounded" name="tags" id="tags" />
+                  <span className="text-xl">tag_1</span>
+                </label>
+                <label className="flex flex-row items-baseline gap-1" for="tags" >
+                  <input type="checkbox" className="mr-1 h-4 w-4 shadow border rounded" name="tags" id="tags" />
+                  <span className="text-xl">tag_1</span>
+                </label>
                 <label className="flex flex-row items-baseline gap-1" for="tags" >
                   <input type="checkbox" className="mr-1 h-4 w-4 shadow border rounded" name="tags" id="tags" />
                   <span className="text-xl">tag_1</span>

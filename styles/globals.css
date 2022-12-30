@@ -57,7 +57,54 @@
     background-position: 500%;
   }
 }
+ 
+.tags::-webkit-scrollbar {
+  width: 0.3em;
+  border-radius: 1em;
+}
+.tags::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.tags::-webkit-scrollbar-thumb {
+  background-color: #666;
+  outline: 1px solid #eee;
+}
 
+#tittle::-webkit-scrollbar {
+  width: 0.3em;
+}
+#tittle::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+#tittle::-webkit-scrollbar-thumb {
+  background-color: #666;
+  outline: 1px solid #eee;
+}
+
+
+#attack::-webkit-scrollbar {
+  width: 0.3em;
+}
+#attack::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+#attack::-webkit-scrollbar-thumb {
+  cursor: default;
+  background-color: #666;
+  outline: 1px solid #eee;
+}
+
+
+#body::-webkit-scrollbar {
+  width: 0.3em;
+}
+#body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+#body::-webkit-scrollbar-thumb {
+  background-color: #666;
+  outline: 1px solid #eee;
+}
 
 
 @media all and (max-width: 640px) {
